@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Page Creation with Specific Element</title>
+    <link rel="stylesheet" href="/Style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <p>
+          Slack Name:<span data-testid="slackUserName">Manuel_Phoenix</span>.
+        </p>
+        <p>My Slack display picture is:</p>
+        <img
+          src="/new.jpg"
+          alt="Manuel_Phoenix"
+          data-testid="slackDisplayImage"
+        />
+        <p>
+          Current Day of the week:
+          <span data-testid="currentDayOfTheWeek" id="day"></span>.
+        </p>
+        <p>
+          Current UTC Time:
+          <span data-testid="currentUTCTime" id="time"></span>.
+        </p>
+        <p>Track:<span data-testid="myTrack">Frontend</span>.</p>
+        <p>
+          GitHub URL:
+          <a href="https://github.com/johndoe" data-testid="githubURL"
+            >Link to my Github</a
+          >.
+        </p>
+      </section>
+    </main>
+    <script src="/Script.js"></script>
+  </body>
+</html>
